@@ -1,4 +1,5 @@
 import json
+from collections import Counter
 
 def procesar_fichero(fichero_principal, fichero_eliminar, fichero_lemas):
     # Leer el fichero principal y almacenar las palabras en una lista junto con sus índices originales
@@ -18,9 +19,20 @@ def procesar_fichero(fichero_principal, fichero_eliminar, fichero_lemas):
         lemas = json.load(f)
     
     # Reemplazar las palabras filtradas con su lema si existe en el diccionario
-    palabras_finales = [(indice, lemas.get(palabra, palabra)) for indice, palabra in palabras_filtradas]
+    palabras_lemmatizadas = [(indice, lemas.get(palabra, palabra)) for indice, palabra in palabras_filtradas]
     
-    return palabras_finales
+    # Contar las ocurrencias de cada palabra lematizada
+    frecuencia_palabras = Counter([palabra for _, palabra in palabras_lemmatizadas])
+    
+    # Crear el resultado final sin duplicados y con frecuencia de aparición
+    resultado = []
+    palabras_vistas = set()
+    for indice, palabra in palabras_lemmatizadas:
+        if palabra not in palabras_vistas:
+            resultado.append((indice, palabra, frecuencia_palabras[palabra]))
+            palabras_vistas.add(palabra)
+    
+    return resultado
 
 # Ejemplo de uso:
 resultado = procesar_fichero('documents-01.txt', 'stop-words-en.txt', 'corpus-en.txt')
