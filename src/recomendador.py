@@ -170,7 +170,7 @@ def main():
     resultado = procesar_fichero('documents-01.txt', 'stop-words-en.txt', 'corpus-en.txt')
     tabla_resultado = pd.DataFrame(resultado, columns=["Índice del término", "Término", "Apariciones (TF)"])
     pd.set_option('display.max_rows', None)
-    print(tabla_resultado)
+    print(tabla_resultado.to_string(index=False))
     
 if __name__ == "__main__":
     main()
