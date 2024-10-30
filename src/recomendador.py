@@ -167,8 +167,10 @@ def imprimir_resultados(matriz, matriz_similitud, vecinos, predicciones):
 # EJEMPLO DE EJECUCION: python3 recomendador.py --archivo matriz.txt --metrica euclidea --vecinos 3 --tipo_prediccion media
 
 def main():
+    # Conseguir los terminos con su índice y frecuencia.
     resultado = procesar_fichero('documents-01.txt', 'stop-words-en.txt', 'corpus-en.txt')
-    tabla_resultado = pd.DataFrame(resultado, columns=["Índice del término", "Término", "Apariciones (TF)"])
+    # Crear la tabla con las columnas correspondientes
+    tabla_resultado = pd.DataFrame(resultado, columns=["Índice del término", "Término", "TF"])
     pd.set_option('display.max_rows', None)
     print(tabla_resultado.to_string(index=False))
     
