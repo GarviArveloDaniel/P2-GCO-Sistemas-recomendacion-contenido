@@ -3,6 +3,8 @@ from euclidea import similitud_euclidea
 from pearson import pearson
 import argparse
 from colorama import Fore, Style, init
+from procesar_documentos import procesar_fichero
+import pandas as pd
 
 
 
@@ -165,43 +167,10 @@ def imprimir_resultados(matriz, matriz_similitud, vecinos, predicciones):
 # EJEMPLO DE EJECUCION: python3 recomendador.py --archivo matriz.txt --metrica euclidea --vecinos 3 --tipo_prediccion media
 
 def main():
-    # Configurar el analizador de argumentos
-    parser = argparse.ArgumentParser(description='Sistema de recomendación basado en diferentes métricas y tipos de predicción.')
-    parser.add_argument('-a', '--archivo', type=str, required=True, help='Ruta al archivo de la matriz de utilidad')
-    parser.add_argument('-m', '--metrica', type=str, required=True, choices=['pearson', 'coseno', 'euclidea'], help='Métrica elegida: pearson, coseno o euclidea')
-    parser.add_argument('-v', '--vecinos', type=int, required=True, help='Número de vecinos considerado')
-    parser.add_argument('-t', '--tipo_prediccion', type=str, required=True, choices=['simple', 'media'], help='Tipo de predicción: simple o media')
-
-    # Parsear los argumentos
-    args = parser.parse_args()
-
-    # Asignar los argumentos a variables
-    archivo = args.archivo
-    metrica = args.metrica
-    k = args.vecinos
-    tipo_prediccion = args.tipo_prediccion
-
-    # Cargar la matriz de utilidad
-    matriz, min_val, max_val = cargar_matriz_utilidad(archivo)
+    resultado = procesar_fichero('documents-01.txt', 'stop-words-en.txt', 'corpus-en.txt')
+    tabla_resultado = pd.DataFrame(resultado, columns=["Índice del término", "Término", "Apariciones (TF)"])
+    pd.set_option('display.max_rows', None)
+    print(tabla_resultado)
     
-    # Calcular la matriz de similitud
-    matriz_similitud = calcular_similitud_matriz(matriz, metrica)
-    # Seleccionar los vecinos
-    vecinos = seleccionar_vecinos(matriz_similitud, k)
-    # Lista para guardar únicamente las predicciones
-    predicciones = []
-    
-    # Predecir valores faltantes
-    for usuario in range(len(matriz)):
-        for item in range(len(matriz[usuario])):
-            if matriz[usuario][item] == '-':
-                if tipo_prediccion == 'simple':
-                    matriz[usuario][item] = prediccion_simple(usuario, vecinos[usuario], matriz, matriz_similitud, item, min_val)
-                elif tipo_prediccion == 'media':
-                    matriz[usuario][item] = prediccion_con_media(usuario, vecinos[usuario], matriz, matriz_similitud, item, min_val)
-                predicciones.append((usuario, item, matriz[usuario][item]))
-    # Imprimir los resultados
-    imprimir_resultados(matriz, matriz_similitud, vecinos, predicciones)
-
 if __name__ == "__main__":
     main()

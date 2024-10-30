@@ -33,7 +33,3 @@ def procesar_fichero(fichero_principal, fichero_eliminar, fichero_lemas):
             palabras_vistas.add(palabra)
     
     return resultado
-
-# Ejemplo de uso:
-resultado = procesar_fichero('documents-01.txt', 'stop-words-en.txt', 'corpus-en.txt')
-print(resultado)
