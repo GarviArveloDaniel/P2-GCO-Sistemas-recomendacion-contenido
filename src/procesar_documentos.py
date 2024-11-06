@@ -37,3 +37,4 @@ def procesar_fichero(fichero_principal, fichero_eliminar, fichero_lemas):
             palabras_vistas.add(palabra)
     
     return resultado
+
