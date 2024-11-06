@@ -1,6 +1,7 @@
 import json
 import re
 from tf import tf
+from idf import idf
 
 def procesar_fichero(fichero_principal, fichero_eliminar, fichero_lemas):
     # Leer el fichero de palabras a eliminar y almacenarlas en un conjunto
@@ -16,7 +17,7 @@ def procesar_fichero(fichero_principal, fichero_eliminar, fichero_lemas):
     with open(fichero_principal, 'r', encoding='utf-8') as f:
         for linea in f:
             # Limpiar y dividir cada línea en palabras
-            texto = re.sub(r"[^\w\s']", ' ', linea)  # Eliminar signos de puntuación excepto apóstrofe
+            texto = re.sub(r"[^\w\s']", ' ', linea).lower()  # Eliminar signos de puntuación excepto apóstrofe
             palabras = texto.split()
             
             # Obtener índices originales de palabras en el documento actual
@@ -42,4 +43,6 @@ def procesar_fichero(fichero_principal, fichero_eliminar, fichero_lemas):
             # Agregar resultado del documento a la lista de documentos
             lista_documentos.append(resultado_documento)
     
-    return lista_documentos
+    
+    valores = idf(lista_documentos)
+    return lista_documentos, valores

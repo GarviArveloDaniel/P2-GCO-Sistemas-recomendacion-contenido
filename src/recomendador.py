@@ -168,11 +168,15 @@ def imprimir_resultados(matriz, matriz_similitud, vecinos, predicciones):
 
 def main():
     # Conseguir los terminos con su índice y frecuencia.
-    resultado = procesar_fichero('../data/documents/documents-01.txt', '../data/stop-words/stop-words-en.txt', '../data/corpus/corpus-en.txt')
+    resultado, idf_valores = procesar_fichero('../data/documents/documents-01.txt', '../data/stop-words/stop-words-en.txt', '../data/corpus/corpus-en.txt')
     # Crear la tabla con las columnas correspondientes
     pd.set_option('display.max_rows', None)
     for documento in resultado:
-        tabla_resultado = pd.DataFrame(documento, columns=["Índice del término", "Término", "TF"])
+        # Add the IDF values to each term in the document
+        documento = [(indice, termino, tf_val, idf_valores.get(termino, 0)) for indice, termino, tf_val in documento]
+        
+        # Create the DataFrame with the corrected data
+        tabla_resultado = pd.DataFrame(documento, columns=["Índice del término", "Término", "TF", "IDF"])
         print(tabla_resultado.to_string(index=False))
     
 if __name__ == "__main__":

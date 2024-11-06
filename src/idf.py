@@ -28,6 +28,6 @@ def idf(lista_documentos):
     # Calcular el IDF para cada término
     idf_valores = {}
     for termino, freq in doc_frecuencia.items():
-        idf_valores[termino] = math.log(num_documentos / (1 + freq))  # Usar logaritmo para evitar división por cero
+        idf_valores[termino] = math.log(num_documentos / (freq), 10)  # Usar logaritmo para evitar división por cero
     
     return idf_valores
