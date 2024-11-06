@@ -168,7 +168,7 @@ def imprimir_resultados(matriz, matriz_similitud, vecinos, predicciones):
 
 def main():
     # Conseguir los terminos con su índice y frecuencia.
-    resultado = procesar_fichero('documents-01.txt', 'stop-words-en.txt', 'corpus-en.txt')
+    resultado = procesar_fichero('../data/documents-01.txt', 'stop-words-en.txt', 'corpus-en.txt')
     # Crear la tabla con las columnas correspondientes
     pd.set_option('display.max_rows', None)
     for documento in resultado:
