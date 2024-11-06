@@ -1,6 +1,6 @@
 import json
 import re
-from collections import Counter
+from tf import tf
 
 def procesar_fichero(fichero_principal, fichero_eliminar, fichero_lemas):
     # Leer el fichero de palabras a eliminar y almacenarlas en un conjunto
@@ -29,7 +29,7 @@ def procesar_fichero(fichero_principal, fichero_eliminar, fichero_lemas):
             palabras_lemmatizadas = [(indice, lemas.get(palabra, palabra)) for indice, palabra in palabras_filtradas]
             
             # Contar las ocurrencias de cada palabra lematizada en el documento
-            frecuencia_palabras = Counter([palabra for _, palabra in palabras_lemmatizadas])
+            frecuencia_palabras = tf(palabras_lemmatizadas)
             
             # Crear lista de términos únicos con sus frecuencias
             resultado_documento = []
