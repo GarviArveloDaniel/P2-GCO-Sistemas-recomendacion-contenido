@@ -170,9 +170,10 @@ def main():
     # Conseguir los terminos con su índice y frecuencia.
     resultado = procesar_fichero('documents-01.txt', 'stop-words-en.txt', 'corpus-en.txt')
     # Crear la tabla con las columnas correspondientes
-    tabla_resultado = pd.DataFrame(resultado, columns=["Índice del término", "Término", "TF"])
     pd.set_option('display.max_rows', None)
-    print(tabla_resultado.to_string(index=False))
+    for documento in resultado:
+        tabla_resultado = pd.DataFrame(documento, columns=["Índice del término", "Término", "TF"])
+        print(tabla_resultado.to_string(index=False))
     
 if __name__ == "__main__":
     main()
