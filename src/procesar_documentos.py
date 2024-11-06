@@ -6,7 +6,7 @@ def procesar_fichero(fichero_principal, fichero_eliminar, fichero_lemas):
     # Leer el fichero principal y almacenar las palabras en una lista junto con sus índices originales
     with open(fichero_principal, 'r', encoding='utf-8') as f:
         texto = f.read()
-        texto = re.sub(r'[^\w\s]', '', texto)
+        texto = re.sub(r"[^\w\s']", ' ', texto)
         palabras = texto.split()
 
     palabras_con_indices = [(indice, palabra) for indice, palabra in enumerate(palabras)]
