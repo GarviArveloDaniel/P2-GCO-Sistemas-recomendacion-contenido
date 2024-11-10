@@ -15,7 +15,10 @@
 
 En el contexto de la asignatura, los sistemas de recomendación juegan un papel fundamental al facilitar la búsqueda de información relevante para los usuarios, optimizando así la toma de decisiones y la gestión del conocimiento. Dentro de estos sistemas, los modelos basados en el contenido destacan por su capacidad para recomendar ítems basándose en las características intrínsecas de cada uno de ellos, adaptando las recomendaciones según las preferencias individuales del usuario.
 
+
 El objetivo de esta práctica es desarrollar un sistema de recomendación utilizando un enfoque basado en el contenido. Este sistema analizará documentos, los procesará para eliminar términos irrelevantes y aplicará métodos de representación y similaridad textual, como el TF-IDF y la similaridad coseno, para medir y comparar la relevancia de los términos entre documentos.
+
+
 ---
 
 # Dependencias
