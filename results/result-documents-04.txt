@@ -1,0 +1,591 @@
+RECOMENDADOR BASADO EN EL CONOCIMIENTO
+
+Fichero de entrada: ../data/documents/documents-04.txt
+Resultado guardado en: result-documents-04.txt
+
+# Documento 0
+
+Terminos analizados del documento >> 20 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   today's              1   1.301  1.301 
+2   interconnected       1   1.301  1.301 
+3   world                1   0.699  0.699 
+4   advent               1   1.301  1.301 
+5   advance              1   1.301  1.301 
+6   communication        1   1.000  1.000 
+7   technologies         1   0.699  0.699 
+8   significantly        1   1.301  1.301 
+9   transform            1   1.000  1.000 
+10  individuals          1   0.824  0.824 
+11  interact             1   1.301  1.301 
+12  businesses           1   1.301  1.301 
+13  operate              1   1.301  1.301 
+14  governments          1   1.301  1.301 
+15  communicate          1   1.301  1.301 
+16  citizens             1   1.301  1.301 
+17  reshaping            1   1.301  1.301 
+18  global               1   1.000  1.000 
+19  landscape            1   1.301  1.301 
+20  unprecedented        1   1.000  1.000 
+---------------------------------------------------------------
+
+# Documento 1
+
+Terminos analizados del documento >> 25 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   rapid                1   1.301  1.301 
+2   rise                 1   1.000  1.000 
+3   artificial           1   1.301  1.301 
+4   intelligence         1   1.301  1.301 
+5   bring                1   1.000  1.000 
+6   tremendous           1   1.301  1.301 
+7   opportunities        1   1.000  1.000 
+8   innovation           1   1.301  1.301 
+9   host                 1   1.301  1.301 
+10  ethical              1   1.000  1.000 
+11  concern              1   1.301  1.301 
+12  issue                1   0.699  0.699 
+13  data                 1   1.301  1.301 
+14  privacy              1   1.301  1.301 
+15  bias                 1   1.301  1.301 
+16  machine              2   1.301  2.602 
+17  learn                1   1.000  1.000 
+18  models               1   1.301  1.301 
+19  potential            1   0.824  0.824 
+20  job                  1   1.301  1.301 
+21  displacement         1   1.301  1.301 
+22  roles                1   1.301  1.301 
+23  reserve              1   1.301  1.301 
+24  humans               1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 2
+
+Terminos analizados del documento >> 24 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   individuals          1   0.824  0.824 
+2   climate              1   1.000  1.000 
+3   drive                1   1.000  1.000 
+4   unchecked            1   1.301  1.301 
+5   emissions            1   1.000  1.000 
+6   greenhouse           1   1.000  1.000 
+7   gases                1   1.301  1.301 
+8   deforestation        1   1.301  1.301 
+9   continue             1   1.000  1.000 
+10  press                1   1.301  1.301 
+11  challenge            1   0.699  0.699 
+12  necessitating        1   1.301  1.301 
+13  concerted            1   1.301  1.301 
+14  effort               1   1.000  1.000 
+15  nations              1   1.301  1.301 
+16  shift                1   1.301  1.301 
+17  renewable            1   1.000  1.000 
+18  energy               1   1.000  1.000 
+19  sources              1   1.000  1.000 
+20  reduce               1   0.824  0.824 
+21  waste                1   1.301  1.301 
+22  protect              1   0.824  0.824 
+23  fragile              1   1.301  1.301 
+24  ecosystems           1   1.000  1.000 
+---------------------------------------------------------------
+
+# Documento 3
+
+Terminos analizados del documento >> 22 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   world                1   0.699  0.699 
+2   potential            1   0.824  0.824 
+3   pursuit              1   1.301  1.301 
+4   higher               1   1.301  1.301 
+5   education            1   0.824  0.824 
+6   offer                1   1.301  1.301 
+7   personal             1   1.301  1.301 
+8   growth               1   1.000  1.000 
+9   economic             1   0.824  0.824 
+10  advancement          1   1.301  1.301 
+11  significant          1   0.824  0.824 
+12  financial            1   1.301  1.301 
+13  burdens              1   1.301  1.301 
+14  students             1   1.301  1.301 
+15  families             1   1.301  1.301 
+16  lead                 1   1.301  1.301 
+17  debate               1   1.000  1.000 
+18  necessity            1   1.301  1.301 
+19  reform               1   1.301  1.301 
+20  fund                 1   1.301  1.301 
+21  accessibility        1   1.301  1.301 
+22  countries            1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 4
+
+Terminos analizados del documento >> 23 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   rise                 1   1.000  1.000 
+2   e-commerce           1   1.301  1.301 
+3   platforms            1   1.000  1.000 
+4   grow                 1   0.824  0.824 
+5   trend                1   1.301  1.301 
+6   online               2   1.000  2.000 
+7   shop                 1   1.301  1.301 
+8   traditional          1   1.000  1.000 
+9   brick-and-mortar     1   1.301  1.301 
+10  store                1   1.301  1.301 
+11  adapt                1   1.301  1.301 
+12  enhance              1   0.824  0.824 
+13  customer             1   1.301  1.301 
+14  experience           1   1.000  1.000 
+15  improve              1   1.000  1.000 
+16  presence             1   1.301  1.301 
+17  find                 1   1.301  1.301 
+18  innovative           1   1.301  1.301 
+19  compete              1   1.301  1.301 
+20  increasingly         1   1.000  1.000 
+21  digital              1   1.000  1.000 
+22  market               1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 5
+
+Terminos analizados del documento >> 24 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   drive                1   1.000  1.000 
+2   improve              1   1.000  1.000 
+3   evolution            1   1.301  1.301 
+4   transportation       1   1.301  1.301 
+5   horse-drawn          1   1.301  1.301 
+6   carriages            1   1.301  1.301 
+7   electric             1   1.301  1.301 
+8   vehicles             1   1.301  1.301 
+9   mark                 1   1.301  1.301 
+10  continuous           1   1.301  1.301 
+11  technological        1   1.301  1.301 
+12  progress             1   1.301  1.301 
+13  aim                  1   1.000  1.000 
+14  increase             1   1.000  1.000 
+15  speed                1   1.301  1.301 
+16  efficiency           1   1.301  1.301 
+17  sustainability       1   1.301  1.301 
+18  reflect              1   1.301  1.301 
+19  humanity's           1   1.301  1.301 
+20  persistent           1   1.301  1.301 
+21  explore              1   1.301  1.301 
+22  innovate             1   1.301  1.301 
+23  quality              1   1.000  1.000 
+24  life                 1   0.699  0.699 
+---------------------------------------------------------------
+
+# Documento 6
+
+Terminos analizados del documento >> 20 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   world                1   0.699  0.699 
+2   covid-19             1   1.301  1.301 
+3   pandemic             1   1.301  1.301 
+4   underscored          1   1.301  1.301 
+5   importance           1   1.301  1.301 
+6   healthcare           1   1.301  1.301 
+7   infrastructure       1   1.000  1.000 
+8   public               1   0.824  0.824 
+9   health               1   1.000  1.000 
+10  policies             1   1.301  1.301 
+11  international        1   1.301  1.301 
+12  cooperation          1   1.301  1.301 
+13  highlight            1   1.000  1.000 
+14  exist                1   1.301  1.301 
+15  disparities          1   1.301  1.301 
+16  access               1   1.000  1.000 
+17  medical              1   1.301  1.301 
+18  care                 1   1.301  1.301 
+19  resource             1   1.000  1.000 
+20  regions              1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 7
+
+Terminos analizados del documento >> 22 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   unprecedented        1   1.000  1.000 
+2   reduce               1   0.824  0.824 
+3   grow                 1   0.824  0.824 
+4   enhance              1   0.824  0.824 
+5   aim                  1   1.000  1.000 
+6   quality              1   1.000  1.000 
+7   life                 1   0.699  0.699 
+8   resource             1   1.000  1.000 
+9   development          1   1.301  1.301 
+10  smart                1   1.301  1.301 
+11  cities               1   1.000  1.000 
+12  integrate            1   1.301  1.301 
+13  technology           1   0.824  0.824 
+14  manage               1   1.301  1.301 
+15  efficiently          1   1.301  1.301 
+16  residents            1   1.301  1.301 
+17  environmental        1   1.301  1.301 
+18  footprint            1   1.301  1.301 
+19  service              1   1.000  1.000 
+20  urban                1   1.301  1.301 
+21  areas                1   0.824  0.824 
+22  rate                 1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 8
+
+Terminos analizados del documento >> 22 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   continue             1   1.000  1.000 
+2   ecosystems           1   1.000  1.000 
+3   grow                 1   0.824  0.824 
+4   human                2   1.000  2.000 
+5   activities           1   1.301  1.301 
+6   impact               1   1.301  1.301 
+7   environment          1   1.000  1.000 
+8   number               1   1.301  1.301 
+9   species              1   1.301  1.301 
+10  face                 1   1.000  1.000 
+11  risk                 1   0.824  0.824 
+12  extinction           1   1.301  1.301 
+13  threaten             1   1.301  1.301 
+14  biodiversity         1   1.301  1.301 
+15  disrupt              1   1.301  1.301 
+16  crucial              1   1.301  1.301 
+17  maintain             1   1.301  1.301 
+18  balance              1   1.000  1.000 
+19  nature               1   1.301  1.301 
+20  support              1   1.301  1.301 
+21  livelihoods          1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 9
+
+Terminos analizados del documento >> 22 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   communication        1   1.000  1.000 
+2   significant          1   0.824  0.824 
+3   life                 1   0.699  0.699 
+4   technology           1   0.824  0.824 
+5   space                1   1.301  1.301 
+6   exploration          1   1.301  1.301 
+7   expand               1   1.301  1.301 
+8   understand           1   1.301  1.301 
+9   universe             1   1.301  1.301 
+10  sparking             1   1.301  1.301 
+11  interest             1   1.301  1.301 
+12  possibility          1   1.301  1.301 
+13  colonizing           1   1.301  1.301 
+14  planets              1   1.301  1.301 
+15  led                  1   1.301  1.301 
+16  advancements         1   1.000  1.000 
+17  benefit              1   1.301  1.301 
+18  everyday             1   1.000  1.000 
+19  range                1   1.301  1.301 
+20  gps                  1   1.301  1.301 
+21  navigation           1   1.301  1.301 
+22  satellites           1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 10
+
+Terminos analizados del documento >> 19 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   potential            1   0.824  0.824 
+2   challenge            1   0.699  0.699 
+3   technology           1   0.824  0.824 
+4   field                1   1.301  1.301 
+5   quantum              1   1.301  1.301 
+6   computing            1   1.301  1.301 
+7   hold                 1   1.301  1.301 
+8   revolutionize        1   1.301  1.301 
+9   industries           1   1.301  1.301 
+10  solve                1   1.301  1.301 
+11  complex              1   1.000  1.000 
+12  problems             1   1.301  1.301 
+13  capabilities         1   1.301  1.301 
+14  classical            1   1.301  1.301 
+15  computers            1   1.301  1.301 
+16  remain               1   1.000  1.000 
+17  practical            1   1.301  1.301 
+18  accessible           1   1.301  1.301 
+19  widespread           1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 11
+
+Terminos analizados del documento >> 23 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   technologies         1   0.699  0.699 
+2   ethical              1   1.000  1.000 
+3   enhance              1   0.824  0.824 
+4   human                1   1.000  1.000 
+5   advancements         1   1.000  1.000 
+6   biotechnology        1   1.301  1.301 
+7   include              1   1.301  1.301 
+8   gene                 1   1.301  1.301 
+9   edit                 1   1.301  1.301 
+10  crispr               1   1.301  1.301 
+11  open                 1   1.301  1.301 
+12  possibilities        1   1.301  1.301 
+13  treat                1   1.301  1.301 
+14  genetic              1   1.301  1.301 
+15  disorders            1   1.301  1.301 
+16  agricultural         1   1.301  1.301 
+17  yield                1   1.301  1.301 
+18  potentially          1   1.301  1.301 
+19  extend               1   1.301  1.301 
+20  lifespan             1   1.301  1.301 
+21  raise                1   1.000  1.000 
+22  profound             1   1.301  1.301 
+23  question             1   1.000  1.000 
+---------------------------------------------------------------
+
+# Documento 12
+
+Terminos analizados del documento >> 24 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   issue                1   0.699  0.699 
+2   public               1   0.824  0.824 
+3   health               1   1.000  1.000 
+4   social               1   1.301  1.301 
+5   dramatically         1   1.301  1.301 
+6   change               1   1.301  1.301 
+7   people               1   1.301  1.301 
+8   consume              1   1.301  1.301 
+9   news                 1   1.301  1.301 
+10  stay                 1   1.301  1.301 
+11  connect              1   1.301  1.301 
+12  friends              1   1.301  1.301 
+13  share                1   1.301  1.301 
+14  opinions             1   1.301  1.301 
+15  criticized           1   1.301  1.301 
+16  spread               1   1.000  1.000 
+17  misinformation       1   1.000  1.000 
+18  contribute           1   1.301  1.301 
+19  mental               1   1.301  1.301 
+20  create               1   1.000  1.000 
+21  echo                 1   1.301  1.301 
+22  chambers             1   1.301  1.301 
+23  polarize             1   1.301  1.301 
+24  discourse            1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 13
+
+Terminos analizados del documento >> 22 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   technologies         1   0.699  0.699 
+2   transform            1   1.000  1.000 
+3   learn                1   1.000  1.000 
+4   education            1   0.824  0.824 
+5   experience           1   1.000  1.000 
+6   environment          1   1.000  1.000 
+7   create               1   1.000  1.000 
+8   virtual              1   1.301  1.301 
+9   reality              2   1.301  2.602 
+10  augmented            1   1.301  1.301 
+11  fields               1   1.301  1.301 
+12  entertainment        1   1.301  1.301 
+13  train                1   1.301  1.301 
+14  immersive            1   1.301  1.301 
+15  users                1   1.301  1.301 
+16  play                 1   1.301  1.301 
+17  practice             1   1.301  1.301 
+18  skills               1   1.301  1.301 
+19  safe                 1   1.301  1.301 
+20  engage               1   1.301  1.301 
+21  simulated            1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 14
+
+Terminos analizados del documento >> 24 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   challenge            1   0.699  0.699 
+2   education            1   0.824  0.824 
+3   economic             1   0.824  0.824 
+4   access               1   1.000  1.000 
+5   areas                1   0.824  0.824 
+6   remain               1   1.000  1.000 
+7   inequality           1   1.301  1.301 
+8   exacerbated          1   1.301  1.301 
+9   factors              1   1.301  1.301 
+10  globalization        1   1.000  1.000 
+11  automation           1   1.301  1.301 
+12  unequal              1   1.301  1.301 
+13  key                  1   1.301  1.301 
+14  societies            1   1.301  1.301 
+15  prompting            1   1.301  1.301 
+16  ongoing              1   1.301  1.301 
+17  discussions          1   1.301  1.301 
+18  policy               1   1.301  1.301 
+19  interventions        1   1.301  1.301 
+20  universal            1   1.301  1.301 
+21  basic                1   1.301  1.301 
+22  income               1   1.301  1.301 
+23  wealth               1   1.301  1.301 
+24  redistribution       1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 15
+
+Terminos analizados del documento >> 23 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   world                1   0.699  0.699 
+2   climate              1   1.000  1.000 
+3   emissions            1   1.000  1.000 
+4   greenhouse           1   1.000  1.000 
+5   effort               1   1.000  1.000 
+6   renewable            1   1.000  1.000 
+7   energy               1   1.000  1.000 
+8   sources              1   1.000  1.000 
+9   reduce               1   0.824  0.824 
+10  increasingly         1   1.000  1.000 
+11  wind                 1   1.301  1.301 
+12  solar                1   1.301  1.301 
+13  hydroelectric        1   1.301  1.301 
+14  power                1   1.301  1.301 
+15  cost-effective       1   1.301  1.301 
+16  provide              1   1.301  1.301 
+17  transition           1   1.301  1.301 
+18  fossil               1   1.301  1.301 
+19  fuels                1   1.301  1.301 
+20  gas                  1   1.301  1.301 
+21  combat               1   1.301  1.301 
+22  negative             1   1.301  1.301 
+23  impacts              1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 16
+
+Terminos analizados del documento >> 21 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   technologies         1   0.699  0.699 
+2   individuals          1   0.824  0.824 
+3   bring                1   1.000  1.000 
+4   significant          1   0.824  0.824 
+5   digital              1   1.000  1.000 
+6   increase             1   1.000  1.000 
+7   life                 1   0.699  0.699 
+8   risk                 1   0.824  0.824 
+9   everyday             1   1.000  1.000 
+10  reliance             1   1.301  1.301 
+11  robust               1   1.301  1.301 
+12  cybersecurity        1   1.301  1.301 
+13  measure              1   1.301  1.301 
+14  threats              1   1.301  1.301 
+15  hacking              1   1.301  1.301 
+16  identity             1   1.301  1.301 
+17  theft                1   1.301  1.301 
+18  ransomware           1   1.301  1.301 
+19  attack               1   1.301  1.301 
+20  pose                 1   1.301  1.301 
+21  organizations        1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 17
+
+Terminos analizados del documento >> 22 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   opportunities        1   1.000  1.000 
+2   challenge            1   0.699  0.699 
+3   growth               1   1.000  1.000 
+4   economic             1   0.824  0.824 
+5   infrastructure       1   1.000  1.000 
+6   cities               1   1.000  1.000 
+7   service              1   1.000  1.000 
+8   areas                1   0.824  0.824 
+9   process              1   1.301  1.301 
+10  urbanization         1   1.301  1.301 
+11  characterized        1   1.301  1.301 
+12  movement             1   1.301  1.301 
+13  populations          1   1.301  1.301 
+14  rural                1   1.301  1.301 
+15  present              1   1.301  1.301 
+16  relate               1   1.301  1.301 
+17  house                1   1.301  1.301 
+18  provision            1   1.301  1.301 
+19  essential            1   1.301  1.301 
+20  clean                1   1.301  1.301 
+21  water                1   1.301  1.301 
+22  sanitation           1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 18
+
+Terminos analizados del documento >> 23 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   global               1   1.000  1.000 
+2   issue                1   0.699  0.699 
+3   protect              1   0.824  0.824 
+4   traditional          1   1.000  1.000 
+5   highlight            1   1.000  1.000 
+6   face                 1   1.000  1.000 
+7   risk                 1   0.824  0.824 
+8   spread               1   1.000  1.000 
+9   globalization        1   1.000  1.000 
+10  cultural             2   1.301  2.602 
+11  preservation         1   1.301  1.301 
+12  important            1   1.301  1.301 
+13  customs              1   1.301  1.301 
+14  languages            1   1.301  1.301 
+15  practices            1   1.301  1.301 
+16  lose                 1   1.301  1.301 
+17  homogenized          1   1.301  1.301 
+18  culture              1   1.301  1.301 
+19  active               1   1.301  1.301 
+20  efforts              1   1.301  1.301 
+21  celebrate            1   1.301  1.301 
+22  diversity            1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 19
+
+Terminos analizados del documento >> 24 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   issue                1   0.699  0.699 
+2   protect              1   0.824  0.824 
+3   debate               1   1.000  1.000 
+4   platforms            1   1.000  1.000 
+5   online               1   1.000  1.000 
+6   public               1   0.824  0.824 
+7   balance              1   1.000  1.000 
+8   complex              1   1.000  1.000 
+9   raise                1   1.000  1.000 
+10  question             1   1.000  1.000 
+11  misinformation       1   1.000  1.000 
+12  free                 1   1.301  1.301 
+13  speech               2   1.301  2.602 
+14  censorship           1   1.301  1.301 
+15  intensified          1   1.301  1.301 
+16  years                1   1.301  1.301 
+17  context              1   1.301  1.301 
+18  content              1   1.301  1.301 
+19  moderation           1   1.301  1.301 
+20  individual           1   1.301  1.301 
+21  rights               1   1.301  1.301 
+22  ensure               1   1.301  1.301 
+23  safety               1   1.301  1.301 
+---------------------------------------------------------------
+
+SIMILITUD ENTRE DOCUMENTOS
+
+           [D.0]    [D.1]    [D.2]    [D.3]    [D.4]    [D.5]    [D.6]    [D.7]    [D.8]    [D.9]    [D.10]   [D.11]   [D.12]   [D.13]   [D.14]   [D.15]   [D.16]   [D.17]   [D.18]   [D.19]   
+[Doc 0] -> 1.000    0.000    0.024    0.017    0.000    0.000    0.018    0.037    0.000    0.034    0.000    0.016    0.000    0.048    0.000    0.017    0.042    0.000    0.032    0.000    
+[Doc 1] -> 0.000    1.000    0.000    0.019    0.028    0.000    0.000    0.000    0.000    0.000    0.020    0.027    0.013    0.027    0.000    0.000    0.030    0.029    0.013    0.013    
+[Doc 2] -> 0.024    0.000    1.000    0.000    0.000    0.031    0.000    0.024    0.065    0.000    0.017    0.000    0.000    0.000    0.015    0.253    0.024    0.016    0.021    0.021    
+[Doc 3] -> 0.017    0.019    0.000    1.000    0.000    0.000    0.017    0.000    0.000    0.022    0.023    0.000    0.000    0.021    0.042    0.016    0.023    0.055    0.000    0.030    
+[Doc 4] -> 0.000    0.028    0.000    0.000    1.000    0.029    0.000    0.046    0.021    0.000    0.000    0.021    0.000    0.030    0.000    0.031    0.033    0.000    0.030    0.088    
+[Doc 5] -> 0.000    0.000    0.031    0.000    0.029    1.000    0.000    0.080    0.000    0.014    0.000    0.000    0.000    0.000    0.000    0.000    0.047    0.000    0.000    0.000    
+[Doc 6] -> 0.018    0.000    0.000    0.017    0.000    0.000    1.000    0.036    0.000    0.000    0.000    0.000    0.053    0.000    0.032    0.016    0.000    0.034    0.032    0.022    
+[Doc 7] -> 0.037    0.000    0.024    0.000    0.046    0.080    0.036    1.000    0.023    0.040    0.025    0.023    0.000    0.000    0.022    0.023    0.018    0.094    0.000    0.000    
+[Doc 8] -> 0.000    0.000    0.065    0.000    0.021    0.000    0.000    0.023    1.000    0.000    0.000    0.061    0.000    0.030    0.000    0.000    0.023    0.000    0.050    0.030    
+[Doc 9] -> 0.034    0.000    0.000    0.022    0.000    0.014    0.000    0.040    0.000    1.000    0.023    0.031    0.000    0.000    0.000    0.000    0.073    0.000    0.000    0.000    
+[Doc 10] ->0.000    0.020    0.017    0.023    0.000    0.000    0.000    0.025    0.000    0.023    1.000    0.000    0.000    0.000    0.048    0.000    0.000    0.017    0.000    0.032    
+[Doc 11] ->0.016    0.027    0.000    0.000    0.021    0.000    0.000    0.023    0.061    0.031    0.000    1.000    0.000    0.014    0.000    0.000    0.016    0.000    0.000    0.058    
+[Doc 12] ->0.000    0.013    0.000    0.000    0.000    0.000    0.053    0.000    0.000    0.000    0.000    0.000    1.000    0.028    0.000    0.000    0.000    0.000    0.042    0.061    
+[Doc 13] ->0.048    0.027    0.000    0.021    0.030    0.000    0.000    0.000    0.030    0.000    0.000    0.014    0.028    1.000    0.020    0.000    0.016    0.000    0.000    0.000    
+[Doc 14] ->0.000    0.000    0.015    0.042    0.000    0.000    0.032    0.022    0.000    0.000    0.048    0.000    0.000    0.020    1.000    0.000    0.000    0.057    0.029    0.000    
+[Doc 15] ->0.017    0.000    0.253    0.016    0.031    0.000    0.016    0.023    0.000    0.000    0.000    0.000    0.000    0.000    0.000    1.000    0.000    0.000    0.000    0.000    
+[Doc 16] ->0.042    0.030    0.024    0.023    0.033    0.047    0.000    0.018    0.023    0.073    0.000    0.016    0.000    0.016    0.000    0.000    1.000    0.000    0.022    0.000    
+[Doc 17] ->0.000    0.029    0.016    0.055    0.000    0.000    0.034    0.094    0.000    0.000    0.017    0.000    0.000    0.000    0.057    0.000    0.000    1.000    0.000    0.000    
+[Doc 18] ->0.032    0.013    0.021    0.000    0.030    0.000    0.032    0.000    0.050    0.000    0.000    0.000    0.042    0.000    0.029    0.000    0.022    0.000    1.000    0.033    
+[Doc 19] ->0.000    0.013    0.021    0.030    0.088    0.000    0.022    0.000    0.030    0.000    0.032    0.058    0.061    0.000    0.000    0.000    0.000    0.000    0.033    1.000    

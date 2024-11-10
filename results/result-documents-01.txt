@@ -1,0 +1,541 @@
+RECOMENDADOR BASADO EN EL CONOCIMIENTO
+
+Fichero de entrada: ../data/documents/documents-01.txt
+Resultado guardado en: result-documents-01.txt
+
+# Documento 0
+
+Terminos analizados del documento >> 18 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   aromas               1   0.301  0.301 
+2   include              1   1.000  1.000 
+3   tropical             1   1.301  1.301 
+4   fruitbroom           1   1.301  1.301 
+5   brimstone            1   1.301  1.301 
+6   dried                2   1.000  2.000 
+7   herb                 1   1.000  1.000 
+8   palate               1   0.398  0.398 
+9   overly               1   1.301  1.301 
+10  expressive           1   1.301  1.301 
+11  offer                1   0.699  0.699 
+12  unripened            1   1.301  1.301 
+13  apple                1   0.699  0.699 
+14  citrus               1   1.000  1.000 
+15  sage                 1   1.301  1.301 
+16  brisk                1   1.000  1.000 
+17  acidity              1   0.398  0.398 
+---------------------------------------------------------------
+
+# Documento 1
+
+Terminos analizados del documento >> 15 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   acidity              1   0.398  0.398 
+2   ripe                 1   0.824  0.824 
+3   fruity               1   1.000  1.000 
+4   wine                 1   0.398  0.398 
+5   smooth               1   1.301  1.301 
+6   structured           1   1.301  1.301 
+7   firm                 1   0.824  0.824 
+8   tannins              1   0.824  0.824 
+9   fill                 1   1.301  1.301 
+10  juicy                1   0.824  0.824 
+11  berry                1   1.000  1.000 
+12  fruits               1   0.824  0.824 
+13  freshened            1   1.301  1.301 
+14  drinkable            1   1.301  1.301 
+15  2016                 1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 2
+
+Terminos analizados del documento >> 17 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   acidity              1   0.398  0.398 
+2   wine                 1   0.398  0.398 
+3   tart                 1   0.824  0.824 
+4   snappy               1   1.301  1.301 
+5   flavors              2   0.523  1.046 
+6   lime                 1   1.301  1.301 
+7   flesh                1   1.301  1.301 
+8   rind                 1   1.000  1.000 
+9   dominate             1   0.824  0.824 
+10  green                1   0.699  0.699 
+11  pineapple            1   0.824  0.824 
+12  pokes                1   1.301  1.301 
+13  crisp                1   0.824  0.824 
+14  underscoring         1   1.301  1.301 
+15  stainless-steel      1   1.301  1.301 
+16  fermented            1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 3
+
+Terminos analizados del documento >> 20 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   aromas               1   0.301  0.301 
+2   palate               1   0.398  0.398 
+3   rind                 1   1.000  1.000 
+4   pineapple            1   0.824  0.824 
+5   lemon                1   1.301  1.301 
+6   pith                 1   1.301  1.301 
+7   orange               1   1.000  1.000 
+8   blossom              1   1.301  1.301 
+9   start                1   1.301  1.301 
+10  bite                 1   1.000  1.000 
+11  opulent              1   1.301  1.301 
+12  note                 1   0.602  0.602 
+13  honey-drizzled       1   1.301  1.301 
+14  guava                1   1.301  1.301 
+15  mango                1   1.301  1.301 
+16  give                 1   1.301  1.301 
+17  slightly             1   0.824  0.824 
+18  astringent           1   1.000  1.000 
+19  semidry              1   1.301  1.301 
+20  finish               1   0.523  0.523 
+---------------------------------------------------------------
+
+# Documento 4
+
+Terminos analizados del documento >> 17 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   wine                 1   0.398  0.398 
+2   regular              1   1.301  1.301 
+3   bottling             1   1.301  1.301 
+4   2012                 1   1.301  1.301 
+5   tannic               1   0.824  0.824 
+6   rustic               1   1.301  1.301 
+7   earthy               1   1.301  1.301 
+8   herbal               1   1.000  1.000 
+9   characteristics      1   1.301  1.301 
+10  pleasantly           1   1.301  1.301 
+11  unfussy              1   1.301  1.301 
+12  country              1   1.301  1.301 
+13  good                 1   0.824  0.824 
+14  companion            1   1.301  1.301 
+15  hearty               1   1.301  1.301 
+16  winter               1   1.301  1.301 
+17  stew                 1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 5
+
+Terminos analizados del documento >> 25 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   aromas               1   0.301  0.301 
+2   acidity              1   0.398  0.398 
+3   flavors              1   0.523  0.523 
+4   green                1   0.699  0.699 
+5   finish               1   0.523  0.523 
+6   herbal               1   1.000  1.000 
+7   blackberry           1   1.000  1.000 
+8   raspberry            1   1.301  1.301 
+9   show                 1   1.301  1.301 
+10  typical              1   1.301  1.301 
+11  navarran             1   1.301  1.301 
+12  whiff                1   1.301  1.301 
+13  herbs                1   1.301  1.301 
+14  case                 1   1.301  1.301 
+15  horseradish          1   1.301  1.301 
+16  mouth                1   1.301  1.301 
+17  bodied               1   1.301  1.301 
+18  tomatoey             1   1.301  1.301 
+19  spicy                1   1.000  1.000 
+20  complement           1   1.301  1.301 
+21  dark                 1   1.000  1.000 
+22  plum                 1   0.699  0.699 
+23  fruit                1   0.824  0.824 
+24  fresh                1   0.699  0.699 
+25  grabby               1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 6
+
+Terminos analizados del documento >> 17 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   aromas               1   0.301  0.301 
+2   herb                 1   1.000  1.000 
+3   palate               1   0.398  0.398 
+4   acidity              1   0.398  0.398 
+5   tannins              1   0.824  0.824 
+6   berry                1   1.000  1.000 
+7   fresh                1   0.699  0.699 
+8   bright               1   1.301  1.301 
+9   informal             1   1.301  1.301 
+10  open                 1   1.000  1.000 
+11  candied              1   1.301  1.301 
+12  white                1   1.301  1.301 
+13  pepper               1   0.699  0.699 
+14  savory               1   1.000  1.000 
+15  carry                1   0.824  0.824 
+16  balance              1   0.699  0.699 
+17  soft                 1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 7
+
+Terminos analizados del documento >> 11 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   offer                1   0.699  0.699 
+2   acidity              1   0.398  0.398 
+3   wine                 1   0.398  0.398 
+4   firm                 1   0.824  0.824 
+5   balance              1   0.699  0.699 
+6   dry                  1   0.699  0.699 
+7   restrain             1   1.000  1.000 
+8   spice                1   1.000  1.000 
+9   profusion            1   1.301  1.301 
+10  texture              1   0.824  0.824 
+11  food                 1   1.000  1.000 
+---------------------------------------------------------------
+
+# Documento 8
+
+Terminos analizados del documento >> 17 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   dried                1   1.000  1.000 
+2   brisk                1   1.000  1.000 
+3   fruity               1   1.000  1.000 
+4   wine                 1   0.398  0.398 
+5   flavors              1   0.523  0.523 
+6   note                 1   0.602  0.602 
+7   fresh                1   0.699  0.699 
+8   savory               1   1.000  1.000 
+9   thyme                1   1.301  1.301 
+10  accent               1   1.301  1.301 
+11  sunnier              1   1.301  1.301 
+12  preserve             1   1.301  1.301 
+13  peach                1   1.301  1.301 
+14  off-dry              1   1.301  1.301 
+15  elegant              1   1.301  1.301 
+16  sprightly            1   1.000  1.000 
+17  footprint            1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 9
+
+Terminos analizados del documento >> 14 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   apple                1   0.699  0.699 
+2   acidity              1   0.398  0.398 
+3   fruits               1   0.824  0.824 
+4   crisp                1   0.824  0.824 
+5   fresh                1   0.699  0.699 
+6   balance              1   0.699  0.699 
+7   dry                  1   0.699  0.699 
+8   spice                1   1.000  1.000 
+9   texture              1   0.824  0.824 
+10  great                1   1.301  1.301 
+11  depth                1   1.301  1.301 
+12  flavor               1   0.824  0.824 
+13  touch                1   1.301  1.301 
+14  drink                1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 10
+
+Terminos analizados del documento >> 16 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   citrus               1   1.000  1.000 
+2   wine                 2   0.398  0.796 
+3   crisp                1   0.824  0.824 
+4   spicy                1   1.000  1.000 
+5   pepper               1   0.699  0.699 
+6   dry                  1   0.699  0.699 
+7   texture              1   0.824  0.824 
+8   food                 1   1.000  1.000 
+9   tight                1   1.301  1.301 
+10  taut                 1   1.301  1.301 
+11  strongly             1   1.301  1.301 
+12  mineral              1   1.301  1.301 
+13  character            1   1.000  1.000 
+14  layered              1   1.301  1.301 
+15  aftertaste           1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 11
+
+Terminos analizados del documento >> 17 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   offer                1   0.699  0.699 
+2   wine                 1   0.398  0.398 
+3   firm                 1   0.824  0.824 
+4   juicy                1   0.824  0.824 
+5   slightly             1   0.824  0.824 
+6   tannic               1   0.824  0.824 
+7   reduce               1   1.301  1.301 
+8   chalky               1   1.301  1.301 
+9   backbone             1   1.301  1.301 
+10  explosion            1   1.301  1.301 
+11  rich                 1   1.301  1.301 
+12  black                1   1.000  1.000 
+13  cherry               1   1.000  1.000 
+14  accented             1   1.301  1.301 
+15  oak                  1   0.699  0.699 
+16  cigar                1   1.000  1.000 
+17  box                  1   1.000  1.000 
+---------------------------------------------------------------
+
+# Documento 12
+
+Terminos analizados del documento >> 20 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   aromas               1   0.301  0.301 
+2   include              1   1.000  1.000 
+3   palate               1   0.398  0.398 
+4   tannins              1   0.824  0.824 
+5   dominate             1   0.824  0.824 
+6   astringent           1   1.000  1.000 
+7   finish               1   0.523  0.523 
+8   plum                 1   0.699  0.699 
+9   carry                1   0.824  0.824 
+10  oak                  1   0.699  0.699 
+11  oak-driven           1   1.000  1.000 
+12  roasted              1   1.301  1.301 
+13  coffee               1   1.301  1.301 
+14  bean                 1   1.301  1.301 
+15  espresso             1   1.301  1.301 
+16  coconut              1   1.301  1.301 
+17  vanilla              1   1.000  1.000 
+18  chocolate            1   1.301  1.301 
+19  drying               1   1.301  1.301 
+20  abrupt               1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 13
+
+Terminos analizados del documento >> 30 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   apple                1   0.699  0.699 
+2   ripe                 1   0.824  0.824 
+3   wine                 1   0.398  0.398 
+4   tart                 1   0.824  0.824 
+5   flavors              1   0.523  0.523 
+6   green                1   0.699  0.699 
+7   pineapple            1   0.824  0.824 
+8   good                 1   0.824  0.824 
+9   build                1   1.301  1.301 
+10  150                  1   1.301  1.301 
+11  years                1   1.301  1.301 
+12  generations          1   1.301  1.301 
+13  winemaking           1   1.301  1.301 
+14  tradition            1   1.301  1.301 
+15  winery               1   1.301  1.301 
+16  trends               1   1.301  1.301 
+17  leaner               1   1.301  1.301 
+18  style                1   1.301  1.301 
+19  classic              1   1.301  1.301 
+20  california           1   1.301  1.301 
+21  buttercream          1   1.301  1.301 
+22  aroma                1   1.301  1.301 
+23  cut                  1   1.301  1.301 
+24  everyday             1   1.301  1.301 
+25  sipping              1   1.301  1.301 
+26  range                1   1.301  1.301 
+27  barely               1   1.301  1.301 
+28  prove                1   1.301  1.301 
+29  approachable         1   1.000  1.000 
+30  distinctive          1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 14
+
+Terminos analizados del documento >> 18 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   palate               1   0.398  0.398 
+2   apple                1   0.699  0.699 
+3   orange               1   1.000  1.000 
+4   note                 1   0.602  0.602 
+5   dry                  1   0.699  0.699 
+6   sprightly            1   1.000  1.000 
+7   zesty                1   1.301  1.301 
+8   peels                1   1.301  1.301 
+9   abound               1   1.301  1.301 
+10  mineral-toned        1   1.301  1.301 
+11  riesling             1   1.301  1.301 
+12  racy                 1   1.301  1.301 
+13  lean                 1   1.301  1.301 
+14  refreshing           1   1.301  1.301 
+15  easy                 1   1.301  1.301 
+16  quaffer              1   1.301  1.301 
+17  wide                 1   1.301  1.301 
+18  appeal               1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 15
+
+Terminos analizados del documento >> 30 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   aromas               1   0.301  0.301 
+2   palate               1   0.398  0.398 
+3   acidity              1   0.398  0.398 
+4   flavors              1   0.523  0.523 
+5   green                1   0.699  0.699 
+6   finish               1   0.523  0.523 
+7   plum                 2   0.699  1.398 
+8   balance              1   0.699  0.699 
+9   flavor               1   0.824  0.824 
+10  oak                  1   0.699  0.699 
+11  bake                 1   1.301  1.301 
+12  molasses             1   1.301  1.301 
+13  balsamic             1   1.301  1.301 
+14  vinegar              1   1.301  1.301 
+15  cheesy               1   1.301  1.301 
+16  feed                 1   1.301  1.301 
+17  braced               1   1.301  1.301 
+18  bolt                 1   1.301  1.301 
+19  compact              1   1.301  1.301 
+20  set                  1   1.301  1.301 
+21  saucy                1   1.301  1.301 
+22  red-berry            1   1.301  1.301 
+23  feature              1   1.301  1.301 
+24  tobacco              1   1.000  1.000 
+25  peppery              1   1.301  1.301 
+26  accents              1   1.301  1.301 
+27  mildly               1   1.301  1.301 
+28  respectable          1   1.301  1.301 
+29  weight               1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 16
+
+Terminos analizados del documento >> 22 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   aromas               1   0.301  0.301 
+2   juicy                1   0.824  0.824 
+3   fruits               1   0.824  0.824 
+4   finish               1   0.523  0.523 
+5   good                 1   0.824  0.824 
+6   flavor               1   0.824  0.824 
+7   character            1   1.000  1.000 
+8   oak                  2   0.699  1.398 
+9   raw                  1   1.301  1.301 
+10  black-cherry         1   1.301  1.301 
+11  simple               1   1.301  1.301 
+12  feel                 1   1.301  1.301 
+13  thickens             1   1.301  1.301 
+14  extract              1   1.301  1.301 
+15  apparent             1   1.301  1.301 
+16  profile              1   1.301  1.301 
+17  drive                1   1.301  1.301 
+18  dark-berry           1   1.301  1.301 
+19  smoldering           1   1.301  1.301 
+20  meaty                1   1.301  1.301 
+21  hot                  1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 17
+
+Terminos analizados del documento >> 28 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   aromas               2   0.301  0.602 
+2   flavors              1   0.523  0.523 
+3   dominate             1   0.824  0.824 
+4   finish               1   0.523  0.523 
+5   tannic               1   0.824  0.824 
+6   blackberry           2   1.000  2.000 
+7   fruit                1   0.824  0.824 
+8   carry                1   0.824  0.824 
+9   desiccated           1   1.301  1.301 
+10  leather              1   1.301  1.301 
+11  charred              1   1.301  1.301 
+12  wood                 1   1.301  1.301 
+13  mint                 1   1.301  1.301 
+14  nose                 1   1.000  1.000 
+15  full-bodied          1   1.301  1.301 
+16  heavily              1   1.301  1.301 
+17  oaked                1   1.301  1.301 
+18  tinto                1   1.301  1.301 
+19  fino                 1   1.301  1.301 
+20  clove                1   1.301  1.301 
+21  woodspice            1   1.301  1.301 
+22  top                  1   1.301  1.301 
+23  hickory              1   1.301  1.301 
+24  forceful             1   1.301  1.301 
+25  oak-based            1   1.301  1.301 
+26  rise                 1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 18
+
+Terminos analizados del documento >> 29 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   aromas               1   0.301  0.301 
+2   palate               1   0.398  0.398 
+3   note                 2   0.602  1.204 
+4   slightly             1   0.824  0.824 
+5   plum                 1   0.699  0.699 
+6   fruit                1   0.824  0.824 
+7   open                 1   1.000  1.000 
+8   pepper               1   0.699  0.699 
+9   restrain             1   1.000  1.000 
+10  cherry               1   1.000  1.000 
+11  cigar                1   1.000  1.000 
+12  box                  1   1.000  1.000 
+13  approachable         1   1.000  1.000 
+14  nose                 1   1.000  1.000 
+15  pervade              1   1.301  1.301 
+16  menthol              1   1.301  1.301 
+17  ride                 1   1.301  1.301 
+18  entry                1   1.301  1.301 
+19  riper                1   1.301  1.301 
+20  specked              1   1.301  1.301 
+21  crushed              1   1.301  1.301 
+22  blend                1   1.301  1.301 
+23  merlot               1   1.301  1.301 
+24  cabernet             2   1.301  2.602 
+25  sauvignon            1   1.301  1.301 
+26  franc                1   1.301  1.301 
+27  enjoy                1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 19
+
+Terminos analizados del documento >> 22 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   aromas               1   0.301  0.301 
+2   palate               1   0.398  0.398 
+3   offer                1   0.699  0.699 
+4   ripe                 1   0.824  0.824 
+5   tart                 1   0.824  0.824 
+6   bite                 1   1.000  1.000 
+7   note                 2   0.602  1.204 
+8   dark                 1   1.000  1.000 
+9   pepper               1   0.699  0.699 
+10  black                1   1.000  1.000 
+11  oak-driven           1   1.000  1.000 
+12  vanilla              1   1.000  1.000 
+13  tobacco              1   1.000  1.000 
+14  berries              1   1.301  1.301 
+15  mingle               1   1.301  1.301 
+16  toasted              1   1.301  1.301 
+17  dusty                1   1.301  1.301 
+18  nature               1   1.301  1.301 
+19  currant              1   1.301  1.301 
+20  shine                1   1.301  1.301 
+21  levity               1   1.301  1.301 
+---------------------------------------------------------------
+
+SIMILITUD ENTRE DOCUMENTOS
+
+           [D.0]    [D.1]    [D.2]    [D.3]    [D.4]    [D.5]    [D.6]    [D.7]    [D.8]    [D.9]    [D.10]   [D.11]   [D.12]   [D.13]   [D.14]   [D.15]   [D.16]   [D.17]   [D.18]   [D.19]   
+[Doc 0] -> 1.000    0.009    0.008    0.011    0.000    0.010    0.077    0.050    0.146    0.040    0.052    0.025    0.059    0.017    0.029    0.015    0.004    0.006    0.009    0.033    
+[Doc 1] -> 0.009    1.000    0.019    0.000    0.008    0.007    0.116    0.089    0.065    0.059    0.019    0.090    0.037    0.033    0.000    0.007    0.064    0.000    0.000    0.035    
+[Doc 2] -> 0.008    0.019    1.000    0.083    0.008    0.053    0.010    0.027    0.038    0.056    0.058    0.009    0.035    0.096    0.000    0.047    0.000    0.048    0.000    0.033    
+[Doc 3] -> 0.011    0.000    0.083    1.000    0.000    0.014    0.013    0.000    0.017    0.000    0.000    0.033    0.069    0.022    0.065    0.018    0.014    0.015    0.056    0.084    
+[Doc 4] -> 0.000    0.008    0.008    0.000    1.000    0.038    0.000    0.011    0.007    0.000    0.015    0.040    0.000    0.027    0.000    0.000    0.026    0.022    0.000    0.000    
+[Doc 5] -> 0.010    0.007    0.053    0.014    0.038    1.000    0.035    0.011    0.032    0.034    0.045    0.000    0.035    0.022    0.000    0.070    0.013    0.104    0.038    0.042    
+[Doc 6] -> 0.077    0.116    0.010    0.013    0.000    0.035    1.000    0.058    0.084    0.081    0.030    0.000    0.088    0.000    0.008    0.037    0.004    0.035    0.071    0.038    
+[Doc 7] -> 0.050    0.089    0.027    0.000    0.011    0.011    0.058    1.000    0.013    0.283    0.214    0.112    0.000    0.009    0.036    0.038    0.000    0.000    0.058    0.036    
+[Doc 8] -> 0.146    0.065    0.038    0.017    0.007    0.032    0.084    0.013    1.000    0.031    0.017    0.008    0.000    0.015    0.063    0.010    0.000    0.010    0.026    0.034    
+[Doc 9] -> 0.040    0.059    0.056    0.000    0.000    0.034    0.081    0.283    0.031    1.000    0.126    0.000    0.000    0.022    0.056    0.062    0.072    0.000    0.000    0.000    
+[Doc 10] ->0.052    0.019    0.058    0.000    0.015    0.045    0.030    0.214    0.017    0.126    1.000    0.018    0.000    0.012    0.024    0.000    0.046    0.000    0.019    0.024    
+[Doc 11] ->0.025    0.090    0.009    0.033    0.040    0.000    0.000    0.112    0.008    0.000    0.018    1.000    0.025    0.006    0.000    0.019    0.074    0.026    0.140    0.072    
+[Doc 12] ->0.059    0.037    0.035    0.069    0.000    0.035    0.088    0.000    0.000    0.000    0.000    0.025    1.000    0.000    0.007    0.072    0.055    0.065    0.026    0.101    
+[Doc 13] ->0.017    0.033    0.096    0.022    0.027    0.022    0.000    0.009    0.015    0.022    0.012    0.006    0.000    1.000    0.016    0.020    0.020    0.007    0.025    0.044    
+[Doc 14] ->0.029    0.000    0.000    0.065    0.000    0.000    0.008    0.036    0.063    0.056    0.024    0.000    0.007    0.016    1.000    0.005    0.000    0.000    0.029    0.037    
+[Doc 15] ->0.015    0.007    0.047    0.018    0.000    0.070    0.037    0.038    0.010    0.062    0.000    0.019    0.072    0.020    0.005    1.000    0.063    0.020    0.033    0.043    
+[Doc 16] ->0.004    0.064    0.000    0.014    0.026    0.013    0.004    0.000    0.000    0.072    0.046    0.074    0.055    0.020    0.000    0.063    1.000    0.014    0.003    0.004    
+[Doc 17] ->0.006    0.000    0.048    0.015    0.022    0.104    0.035    0.000    0.010    0.000    0.000    0.026    0.065    0.007    0.000    0.020    0.014    1.000    0.049    0.006    
+[Doc 18] ->0.009    0.000    0.000    0.056    0.000    0.038    0.071    0.058    0.026    0.000    0.019    0.140    0.026    0.025    0.029    0.033    0.003    0.049    1.000    0.073    
+[Doc 19] ->0.033    0.035    0.033    0.084    0.000    0.042    0.038    0.036    0.034    0.000    0.024    0.072    0.101    0.044    0.037    0.043    0.004    0.006    0.073    1.000    

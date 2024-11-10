@@ -1,0 +1,509 @@
+RECOMENDADOR BASADO EN EL CONOCIMIENTO
+
+Fichero de entrada: ../data/documents/documents-06.txt
+Resultado guardado en: result-documents-06.txt
+
+# Documento 0
+
+Terminos analizados del documento >> 20 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   sky                  1   0.824  0.824 
+2   morning              1   1.301  1.301 
+3   brilliant            1   1.301  1.301 
+4   shade                1   1.000  1.000 
+5   blue                 1   1.301  1.301 
+6   interrupt            1   1.301  1.301 
+7   wispy                1   1.301  1.301 
+8   clouds               1   1.301  1.301 
+9   float                1   1.301  1.301 
+10  lazily               1   1.301  1.301 
+11  horizon              1   1.000  1.000 
+12  sun                  1   0.824  0.824 
+13  begin                1   0.824  0.824 
+14  rise                 1   1.301  1.301 
+15  cast                 1   1.301  1.301 
+16  warm                 1   1.000  1.000 
+17  golden               1   1.301  1.301 
+18  light                1   1.000  1.000 
+19  dew-covered          1   1.301  1.301 
+20  fields               1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 1
+
+Terminos analizados del documento >> 17 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   train                1   1.301  1.301 
+2   rumbled              1   1.301  1.301 
+3   track                1   1.301  1.301 
+4   pass                 1   1.301  1.301 
+5   endless              1   1.301  1.301 
+6   stretch              1   1.000  1.000 
+7   countryside          1   1.301  1.301 
+8   dotted               1   1.301  1.301 
+9   grazing              1   1.301  1.301 
+10  cattle               1   1.301  1.301 
+11  clusters             1   1.301  1.301 
+12  wildflowers          1   1.301  1.301 
+13  feel                 1   1.301  1.301 
+14  sense                1   1.000  1.000 
+15  nostalgia            1   1.301  1.301 
+16  dream                1   1.301  1.301 
+17  childhood            1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 2
+
+Terminos analizados del documento >> 19 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   library              1   1.301  1.301 
+2   towering             1   1.000  1.000 
+3   shelves              1   1.301  1.301 
+4   fill                 1   0.824  0.824 
+5   wear                 1   1.301  1.301 
+6   leather-bound        1   1.301  1.301 
+7   book                 1   1.000  1.000 
+8   scent                1   1.000  1.000 
+9   parchment            1   1.301  1.301 
+10  lingering            1   1.301  1.301 
+11  hold                 1   1.301  1.301 
+12  thousand             1   1.301  1.301 
+13  secrets              1   1.301  1.301 
+14  ancient              1   1.301  1.301 
+15  walls                1   1.301  1.301 
+16  wait                 1   1.301  1.301 
+17  curious              1   1.301  1.301 
+18  souls                1   1.301  1.301 
+19  discover             1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 3
+
+Terminos analizados del documento >> 20 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   stretch              1   1.000  1.000 
+2   reach                1   1.000  1.000 
+3   peak                 1   1.301  1.301 
+4   mountain             1   1.301  1.301 
+5   hours                1   1.301  1.301 
+6   climb                1   1.301  1.301 
+7   steep                1   1.000  1.000 
+8   rocky                1   1.301  1.301 
+9   trails               1   1.301  1.301 
+10  view                 1   1.301  1.301 
+11  breath               1   1.301  1.301 
+12  landscape            1   1.301  1.301 
+13  endlessly            1   1.301  1.301 
+14  beneath              1   1.301  1.301 
+15  cover                1   1.301  1.301 
+16  dense                1   1.301  1.301 
+17  carpet               1   1.301  1.301 
+18  lush                 1   1.301  1.301 
+19  green                1   1.301  1.301 
+20  forest               1   1.000  1.000 
+---------------------------------------------------------------
+
+# Documento 4
+
+Terminos analizados del documento >> 19 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   bustling             1   1.301  1.301 
+2   city                 1   1.301  1.301 
+3   street               1   1.000  1.000 
+4   alive                1   1.000  1.000 
+5   energy               1   1.301  1.301 
+6   people               1   1.301  1.301 
+7   hurry                1   1.301  1.301 
+8   cars                 1   1.301  1.301 
+9   honking              1   1.301  1.301 
+10  vendors              1   1.301  1.301 
+11  shout                1   1.301  1.301 
+12  stand                1   1.301  1.301 
+13  corner               1   0.824  0.824 
+14  absorb               1   1.301  1.301 
+15  overwhelming         1   1.301  1.301 
+16  sights               1   1.301  1.301 
+17  sound                1   0.602  0.602 
+18  smell                1   1.301  1.301 
+19  vibrant              1   1.000  1.000 
+---------------------------------------------------------------
+
+# Documento 5
+
+Terminos analizados del documento >> 18 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   fact                 1   1.301  1.301 
+2   project              1   1.301  1.301 
+3   months               1   0.824  0.824 
+4   longer               1   1.301  1.301 
+5   expect               1   1.301  1.301 
+6   involve              1   1.301  1.301 
+7   countless            1   1.000  1.000 
+8   nights               1   1.301  1.301 
+9   numerous             1   1.301  1.301 
+10  setbacks             1   1.301  1.301 
+11  team                 1   1.301  1.301 
+12  finally              1   1.000  1.000 
+13  unveil               1   1.301  1.301 
+14  creation             1   1.301  1.301 
+15  audience             1   1.301  1.301 
+16  respond              1   1.301  1.301 
+17  enthusiastic         1   1.301  1.301 
+18  applause             1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 6
+
+Terminos analizados del documento >> 24 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   sky                  1   0.824  0.824 
+2   shade                1   1.000  1.000 
+3   begin                1   0.824  0.824 
+4   sound                1   0.602  0.602 
+5   storm                1   1.301  1.301 
+6   roll                 1   1.301  1.301 
+7   darkened             1   1.301  1.301 
+8   quickly              1   1.301  1.301 
+9   turn                 1   1.301  1.301 
+10  ominous              1   1.301  1.301 
+11  gray                 1   1.301  1.301 
+12  fat                  1   1.301  1.301 
+13  drop                 1   1.301  1.301 
+14  rain                 1   1.301  1.301 
+15  fall                 1   1.301  1.301 
+16  create               1   0.824  0.824 
+17  rhythmic             1   1.301  1.301 
+18  tap                  1   1.301  1.301 
+19  roof                 1   1.301  1.301 
+20  oddly                1   1.301  1.301 
+21  comfort              1   0.824  0.824 
+22  lightning            1   1.301  1.301 
+23  flashed              1   1.301  1.301 
+24  distance             1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 7
+
+Terminos analizados del documento >> 19 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   sound                1   0.602  0.602 
+2   vibrant              1   1.000  1.000 
+3   garden               1   1.301  1.301 
+4   overgrown            1   1.301  1.301 
+5   wild                 1   1.301  1.301 
+6   transform            1   1.301  1.301 
+7   summer               1   1.301  1.301 
+8   peaceful             1   1.301  1.301 
+9   sanctuary            1   1.301  1.301 
+10  carefully            1   1.301  1.301 
+11  manicured            1   1.301  1.301 
+12  paths                1   1.301  1.301 
+13  flowers              1   1.301  1.301 
+14  bloom                1   1.301  1.301 
+15  gentle               1   1.301  1.301 
+16  small                1   0.824  0.824 
+17  fountain             1   1.301  1.301 
+18  bubbling             1   1.301  1.301 
+19  center               1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 8
+
+Terminos analizados del documento >> 15 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   speak                1   1.301  1.301 
+2   quiet                1   1.000  1.000 
+3   confidence           1   1.301  1.301 
+4   words                1   1.301  1.301 
+5   weaving              1   1.301  1.301 
+6   tapestry             1   1.301  1.301 
+7   ideas                1   1.301  1.301 
+8   captivated           1   1.301  1.301 
+9   room                 1   1.301  1.301 
+10  make                 1   1.301  1.301 
+11  forget               1   1.301  1.301 
+12  moment               1   0.824  0.824 
+13  world                1   1.301  1.301 
+14  distractions         1   1.301  1.301 
+15  concern              1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 9
+
+Terminos analizados del documento >> 20 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   warm                 1   1.000  1.000 
+2   light                1   1.000  1.000 
+3   street               1   1.000  1.000 
+4   corner               1   0.824  0.824 
+5   comfort              1   0.824  0.824 
+6   small                1   0.824  0.824 
+7   quiet                1   1.000  1.000 
+8   coffee               2   1.301  2.602 
+9   shop                 1   1.301  1.301 
+10  nestled              1   1.301  1.301 
+11  busy                 1   1.301  1.301 
+12  much-needed          1   1.301  1.301 
+13  escape               1   1.301  1.301 
+14  chaos                1   1.301  1.301 
+15  soft                 1   1.301  1.301 
+16  music                1   1.000  1.000 
+17  aroma                1   1.301  1.301 
+18  freshly              1   1.301  1.301 
+19  brewed               1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 10
+
+Terminos analizados del documento >> 19 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   sky                  1   0.824  0.824 
+2   sun                  1   0.824  0.824 
+3   begin                1   0.824  0.824 
+4   sense                1   1.000  1.000 
+5   create               1   0.824  0.824 
+6   small                1   0.824  0.824 
+7   set                  1   1.000  1.000 
+8   hills                1   1.301  1.301 
+9   paint                1   1.301  1.301 
+10  shades               1   1.301  1.301 
+11  pink                 1   1.301  1.301 
+12  orange               1   1.301  1.301 
+13  purple               1   1.301  1.301 
+14  birds                1   1.301  1.301 
+15  evening              1   1.000  1.000 
+16  song                 1   1.301  1.301 
+17  tranquility          1   1.301  1.301 
+18  day's                1   1.301  1.301 
+19  worry                1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 11
+
+Terminos analizados del documento >> 18 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   towering             1   1.000  1.000 
+2   reach                1   1.000  1.000 
+3   steep                1   1.000  1.000 
+4   sound                1   0.602  0.602 
+5   hike                 1   1.301  1.301 
+6   challenge            1   1.000  1.000 
+7   inclines             1   1.301  1.301 
+8   terrain              1   1.301  1.301 
+9   crystal-clear        1   1.301  1.301 
+10  lake                 1   1.301  1.301 
+11  surround             1   1.301  1.301 
+12  pine                 1   1.301  1.301 
+13  trees                1   1.301  1.301 
+14  distant              1   1.000  1.000 
+15  waterfall            1   1.301  1.301 
+16  difficult            1   1.301  1.301 
+17  step                 1   1.301  1.301 
+18  worth                1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 12
+
+Terminos analizados del documento >> 19 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   countless            1   1.000  1.000 
+2   complex              1   1.301  1.301 
+3   machinery            1   1.301  1.301 
+4   composed             1   1.301  1.301 
+5   gears                1   1.301  1.301 
+6   wires                1   1.301  1.301 
+7   pulleys              1   1.301  1.301 
+8   whirred              1   1.301  1.301 
+9   life                 1   1.301  1.301 
+10  technician           1   1.301  1.301 
+11  flipped              1   1.301  1.301 
+12  switch               1   1.301  1.301 
+13  work                 1   1.301  1.301 
+14  perfect              1   1.000  1.000 
+15  synchrony            1   1.301  1.301 
+16  complete             1   1.301  1.301 
+17  intricate            1   1.301  1.301 
+18  task                 1   1.000  1.000 
+19  design               1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 13
+
+Terminos analizados del documento >> 17 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   book                 1   1.000  1.000 
+2   months               1   0.824  0.824 
+3   comfort              1   0.824  0.824 
+4   winter               1   1.301  1.301 
+5   snow                 1   1.301  1.301 
+6   piled                1   1.301  1.301 
+7   windows              1   1.301  1.301 
+8   days                 1   1.301  1.301 
+9   short                1   1.301  1.301 
+10  dark                 1   1.301  1.301 
+11  sit                  1   1.301  1.301 
+12  fire                 1   1.301  1.301 
+13  wrap                 1   1.301  1.301 
+14  blankets             1   1.301  1.301 
+15  read                 1   1.301  1.301 
+16  aloud                1   1.301  1.301 
+17  favorite             1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 14
+
+Terminos analizados del documento >> 16 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   horizon              1   1.000  1.000 
+2   sun                  1   0.824  0.824 
+3   moment               1   0.824  0.824 
+4   boat                 1   1.301  1.301 
+5   gently               1   1.301  1.301 
+6   rocked               1   1.301  1.301 
+7   calm                 1   1.301  1.301 
+8   water                1   1.301  1.301 
+9   watch                1   1.000  1.000 
+10  dip                  1   1.301  1.301 
+11  reflection           1   1.301  1.301 
+12  shimmering           1   1.301  1.301 
+13  lake's               1   1.301  1.301 
+14  surface              1   1.301  1.301 
+15  realize              1   1.301  1.301 
+16  carry                1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 15
+
+Terminos analizados del documento >> 17 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   challenge            1   1.000  1.000 
+2   perfect              1   1.000  1.000 
+3   task                 1   1.000  1.000 
+4   recipe               1   1.301  1.301 
+5   simple               1   1.301  1.301 
+6   glance               1   1.301  1.301 
+7   handful              1   1.301  1.301 
+8   ingredients          1   1.301  1.301 
+9   true                 1   1.301  1.301 
+10  lie                  1   1.301  1.301 
+11  achieve              1   1.301  1.301 
+12  balance              1   1.301  1.301 
+13  flavors              1   1.301  1.301 
+14  require              1   1.301  1.301 
+15  patience             1   1.301  1.301 
+16  skill                1   1.301  1.301 
+17  kitchen              1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 16
+
+Terminos analizados del documento >> 17 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   fill                 1   0.824  0.824 
+2   corner               1   0.824  0.824 
+3   music                1   1.000  1.000 
+4   evening              1   1.000  1.000 
+5   concert              1   1.301  1.301 
+6   grand                1   1.301  1.301 
+7   chandeliers          1   1.301  1.301 
+8   plush                1   1.301  1.301 
+9   velvet               1   1.301  1.301 
+10  seats                1   1.301  1.301 
+11  ornate               1   1.301  1.301 
+12  decorations          1   1.301  1.301 
+13  breathtaking         1   1.301  1.301 
+14  sight                1   1.301  1.301 
+15  space                1   1.301  1.301 
+16  resonating           1   1.301  1.301 
+17  magical              1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 17
+
+Terminos analizados del documento >> 17 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   months               1   0.824  0.824 
+2   finally              1   1.000  1.000 
+3   moment               1   0.824  0.824 
+4   set                  1   1.000  1.000 
+5   spend                1   1.301  1.301 
+6   meticulously         1   1.301  1.301 
+7   plan                 1   1.301  1.301 
+8   detail               1   1.301  1.301 
+9   trip                 1   1.301  1.301 
+10  routes               1   1.301  1.301 
+11  place                1   1.301  1.301 
+12  stay                 1   1.301  1.301 
+13  arrive               1   1.301  1.301 
+14  adventure            1   1.301  1.301 
+15  surprise             1   1.301  1.301 
+16  unforgettable        1   1.301  1.301 
+17  experience           1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 18
+
+Terminos analizados del documento >> 20 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   fill                 1   0.824  0.824 
+2   scent                1   1.000  1.000 
+3   forest               1   1.000  1.000 
+4   alive                1   1.000  1.000 
+5   sound                1   0.602  0.602 
+6   create               1   0.824  0.824 
+7   distant              1   1.000  1.000 
+8   rustling             1   1.301  1.301 
+9   leave                1   1.301  1.301 
+10  wind                 1   1.301  1.301 
+11  call                 1   1.301  1.301 
+12  unseen               1   1.301  1.301 
+13  animals              1   1.301  1.301 
+14  earthy               1   1.301  1.301 
+15  moss                 1   1.301  1.301 
+16  damp                 1   1.301  1.301 
+17  soil                 1   1.301  1.301 
+18  atmosphere           1   1.301  1.301 
+19  mysterious           1   1.301  1.301 
+20  enchanting           1   1.301  1.301 
+---------------------------------------------------------------
+
+# Documento 19
+
+Terminos analizados del documento >> 12 palabras
+N.  Termino              TF  IDF    TF-IDF
+1   watch                1   1.000  1.000 
+2   young                1   1.301  1.301 
+3   boy                  1   1.301  1.301 
+4   awe                  1   1.301  1.301 
+5   magician             1   1.301  1.301 
+6   perform              1   1.301  1.301 
+7   trick                2   1.301  2.602 
+8   incredible           1   1.301  1.301 
+9   know                 1   1.301  1.301 
+10  explanation          1   1.301  1.301 
+11  catch                1   1.301  1.301 
+---------------------------------------------------------------
+
+SIMILITUD ENTRE DOCUMENTOS
+
+           [D.0]    [D.1]    [D.2]    [D.3]    [D.4]    [D.5]    [D.6]    [D.7]    [D.8]    [D.9]    [D.10]   [D.11]   [D.12]   [D.13]   [D.14]   [D.15]   [D.16]   [D.17]   [D.18]   [D.19]   
+[Doc 0] -> 1.000    0.000    0.000    0.000    0.000    0.000    0.076    0.000    0.000    0.068    0.077    0.000    0.000    0.000    0.065    0.000    0.000    0.000    0.000    0.000    
+[Doc 1] -> 0.000    1.000    0.000    0.034    0.000    0.000    0.000    0.000    0.000    0.000    0.038    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    
+[Doc 2] -> 0.000    0.000    1.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.037    0.000    0.036    0.000    0.000    0.025    0.000    0.059    0.000    
+[Doc 3] -> 0.000    0.034    0.000    1.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.071    0.000    0.000    0.000    0.000    0.000    0.000    0.034    0.000    
+[Doc 4] -> 0.000    0.000    0.000    0.000    1.000    0.000    0.012    0.048    0.000    0.057    0.000    0.014    0.000    0.000    0.000    0.000    0.026    0.000    0.049    0.000    
+[Doc 5] -> 0.000    0.000    0.000    0.000    0.000    1.000    0.000    0.000    0.000    0.000    0.000    0.000    0.034    0.025    0.000    0.000    0.000    0.063    0.000    0.000    
+[Doc 6] -> 0.076    0.000    0.000    0.000    0.012    0.000    1.000    0.011    0.000    0.021    0.069    0.012    0.000    0.023    0.000    0.000    0.000    0.000    0.034    0.000    
+[Doc 7] -> 0.000    0.000    0.000    0.000    0.048    0.000    0.011    1.000    0.000    0.023    0.025    0.013    0.000    0.000    0.000    0.000    0.000    0.000    0.013    0.000    
+[Doc 8] -> 0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    1.000    0.037    0.000    0.000    0.000    0.000    0.029    0.000    0.000    0.028    0.000    0.000    
+[Doc 9] -> 0.068    0.000    0.000    0.000    0.057    0.000    0.021    0.023    0.037    1.000    0.024    0.000    0.000    0.024    0.000    0.000    0.060    0.000    0.000    0.000    
+[Doc 10] ->0.077    0.038    0.000    0.000    0.000    0.000    0.069    0.025    0.000    0.024    1.000    0.000    0.000    0.000    0.028    0.000    0.040    0.040    0.026    0.000    
+[Doc 11] ->0.000    0.000    0.037    0.071    0.014    0.000    0.012    0.013    0.000    0.000    0.000    1.000    0.000    0.000    0.000    0.038    0.000    0.000    0.051    0.000    
+[Doc 12] ->0.000    0.000    0.000    0.000    0.000    0.034    0.000    0.000    0.000    0.000    0.000    0.000    1.000    0.000    0.000    0.071    0.000    0.000    0.000    0.000    
+[Doc 13] ->0.000    0.000    0.036    0.000    0.000    0.025    0.023    0.000    0.000    0.024    0.000    0.000    0.000    1.000    0.000    0.000    0.000    0.026    0.000    0.000    
+[Doc 14] ->0.065    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.029    0.000    0.028    0.000    0.000    0.000    1.000    0.000    0.000    0.028    0.000    0.043    
+[Doc 15] ->0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.038    0.071    0.000    0.000    1.000    0.000    0.000    0.000    0.000    
+[Doc 16] ->0.000    0.000    0.025    0.000    0.026    0.000    0.000    0.000    0.000    0.060    0.040    0.000    0.000    0.000    0.000    0.000    1.000    0.000    0.026    0.000    
+[Doc 17] ->0.000    0.000    0.000    0.000    0.000    0.063    0.000    0.000    0.028    0.000    0.040    0.000    0.000    0.026    0.028    0.000    0.000    1.000    0.000    0.000    
+[Doc 18] ->0.000    0.000    0.059    0.034    0.049    0.000    0.034    0.013    0.000    0.000    0.026    0.051    0.000    0.000    0.000    0.000    0.026    0.000    1.000    0.000    
+[Doc 19] ->0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.043    0.000    0.000    0.000    0.000    1.000    
