@@ -9,6 +9,9 @@ from print_functions import print_doc_data, print_matriz_sim
 
 # Contar cantidad de veces que aparecen las palabras
 def CountFrequency(my_list):
+    """
+    Calcula la frecuencia de los términos en una lista de palabras.
+    """
     count = {}
     for i in my_list:
         count[i] = count.get(i, 0) + 1
@@ -16,6 +19,9 @@ def CountFrequency(my_list):
 
 # Rellenar la matriz con TF
 def calc_TF(terminos, matriz_terminos, terminos_unicos):
+    """
+    Calcula el valor de TF para cada término en cada documento.
+    """
     for doc in range(len(terminos)):
         recuento = CountFrequency(terminos[doc])
         for k,v in recuento.items():
@@ -23,6 +29,9 @@ def calc_TF(terminos, matriz_terminos, terminos_unicos):
 
 # Rellenar la matriz de similitud entre documentos
 def fill_matriz_sim(matriz_sim, terminos_unicos, matriz_terminos):
+    """
+    Rellena la matriz de similitud entre documentos.
+    """
     for i in range(len(matriz_sim)):
         for j in range(len(matriz_sim[i])):
             matriz_sim[i][j] = calc_sim_cos(i, j, terminos_unicos, matriz_terminos)
