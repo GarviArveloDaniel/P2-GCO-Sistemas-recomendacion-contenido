@@ -1,4 +1,7 @@
 def print_doc_data(matriz_terminos, terminos, terminos_unicos):
+    """
+    Imprime los datos de los documentos en la matriz de términos.
+    """
     for doc in range(len(matriz_terminos)):
         print("\n# Documento " + str(doc) + "\n")
         print("Terminos analizados del documento >> " + str(len(terminos[doc])) + " palabras")
@@ -27,6 +30,11 @@ def print_doc_data(matriz_terminos, terminos, terminos_unicos):
 
 
 def print_matriz_sim(matrix):
+    """
+    Imprime la matriz de similitud entre documentos.
+    Para cada par de documentos, se muestra el valor de similitud entre ellos.
+    Los valores de similitud se redondean a 3 decimales.
+    """
     print("\nSIMILITUD ENTRE DOCUMENTOS\n")
     cabecera = '{:<11}'.format(" ")
     for i in range(len(matrix)):
