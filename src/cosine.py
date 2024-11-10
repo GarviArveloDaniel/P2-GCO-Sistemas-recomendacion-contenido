@@ -1,42 +1,24 @@
 import math
+import numpy as np
 
-def coseno_similitud(u, v):
-  """
-    Calcula la similitud coseno entre dos listas de valoraciones.
+def calc_sim_cos(doc1, doc2, terminos_unicos, matriz_terminos):
+    numerador = 0
+    denominador_izq = 0
+    denominador_der = 0
+    for i in range(len(terminos_unicos)):
+       numerador += matriz_terminos[doc1][i][2] * matriz_terminos[doc2][i][2]
+       denominador_izq += pow(matriz_terminos[doc1][i][2],2)
+       denominador_der += pow(matriz_terminos[doc2][i][2],2)
+    denominador = math.sqrt(denominador_der) * math.sqrt(denominador_izq)
     
-    Args:
-        u (list): Lista de calificaciones del primer usuario.
-        v (list): Lista de calificaciones del segundo usuario.
+    # En caso de error (denominador 0) lanzamos un error y terminamos.
+    if denominador == 0:
+        doc_error = 0
+        if denominador_izq == 0:
+            doc_error = doc1
+        else:
+            doc_error = doc2
+        out_text = "ERROR: Division por cero -> En el documento " + str(doc_error) + "todos sus terminos tienen TF-IDF = 0. Por tanto todas las palabras aparecen en todos los documentos"
+        raise SystemExit(out_text)
     
-    Returns:
-        float: Correlación de coseno entre las dos listas de calificaciones.
-  """
-  # Inicializar variables para los sumatorios
-  sum_uu = 0
-  sum_vv = 0
-  sum_uv = 0
-
-  # Contar el número de ítems compartidos
-  count = 0
-
-  for i in range(len(u)):
-    if u[i] != '-' and v[i] != '-':  # Ignorar elementos no valorados
-      count += 1
-      u_val = float(u[i])
-      v_val = float(v[i])
-
-      # Calcular los componentes del sumatorio
-      sum_uv += u_val * v_val
-      sum_uu += u_val ** 2
-      sum_vv += v_val ** 2
-
-  # Si no hay ítems compartidos, retornar 0 (sin similitud)
-  if count == 0:
-    return 0
-
-  # Calcular la similitud coseno
-  denom = math.sqrt(sum_uu) * math.sqrt(sum_vv)
-  if denom == 0:
-    return 0  # Evitar división por 0
-    
-  return sum_uv / denom
+    return (numerador/float(denominador))
