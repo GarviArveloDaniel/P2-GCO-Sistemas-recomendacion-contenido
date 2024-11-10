@@ -2,6 +2,26 @@ import math
 import numpy as np
 
 def calc_sim_cos(doc1, doc2, terminos_unicos, matriz_terminos):
+    """
+    Calcula la similitud entre dos documentos utilizando el Coseno de los vectores de TF-IDF.
+
+    La similitud entre los documentos se calcula usando la fórmula del coseno del ángulo entre
+    dos vectores de términos representados por sus valores TF-IDF.
+
+    Parámetros:
+    -----------
+    doc1 : int --> El índice del primer documento en la matriz de términos.
+    
+    doc2 : int --> El índice del segundo documento en la matriz de términos.
+    
+    terminos_unicos : list --> Lista de todos los términos únicos presentes en el conjunto de documentos.
+    
+    matriz_terminos : list[list[list]]
+        Una matriz tridimensional donde cada fila representa un documento, y cada columna contiene
+        los términos en el documento. Cada término tiene tres valores asociados: [TF, IDF, TF-IDF],
+        de los cuales solo se usa el valor de TF-IDF para calcular la similitud.
+
+    """
     numerador = 0
     denominador_izq = 0
     denominador_der = 0
